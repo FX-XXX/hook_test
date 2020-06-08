@@ -1,4 +1,4 @@
-package com.example.dbhook;
+package com.hook.linkedin;
 
 import org.junit.Test;
 

@@ -1,1 +1,1 @@
-com.example.dbhook.Main
+com.hook.linkedin.Main

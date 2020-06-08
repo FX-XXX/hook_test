@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dbhook">
+    package="com.hook.linkedin">
 
     <application
         android:allowBackup="true"
@@ -8,22 +8,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <meta-data
-
-            android:name="xposedmodule"
-
-            android:value="true" />
-
-        <meta-data
-
-            android:name="xposeddescription"
-
-            android:value="这是一个Xposed例程" />
-
-        <meta-data
-
-            android:name="xposedminversion"
-
-            android:value="53" />
-        </application>
+        <meta-data android:name="xposedmodule" android:value="true"/>
+        <meta-data android:name="xposeddescription" android:value="测试初始化"/>
+        <!-- xposed 模块最低版本 -->
+        <meta-data android:name="xposedminversion" android:value="54"/>
+    </application>
 </manifest>
